@@ -28,6 +28,9 @@ contact_settings:
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
 
+comment_settings:
+  disqus_shortname: 'pandawhisperer'
+
 social_settings:
   facebook_url: ''
   twitter_url: 'https://twitter.com/panda_whisperer'

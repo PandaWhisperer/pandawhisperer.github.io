@@ -21,4 +21,8 @@ layout: default
 
 	</div>
 
+	{% if page.comments %}
+		{% include comments.html %}
+	{% endif %}
+
 </section>
