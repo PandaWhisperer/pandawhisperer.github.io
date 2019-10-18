@@ -1,7 +1,7 @@
 ---
 title: Testimonials
 subtitle: What others are saying about me
-featured_image: /images/featured/contact.jpg
+featured_image: /images/featured/testimonials.jpg
 testimonials:
   - author: Adam Stiles
     title: Software Developer, Entrepreneur
