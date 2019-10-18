@@ -9,6 +9,7 @@
 	margin: 20px auto;
 	width: 100%;
 	padding: 20px;
+	border-radius: 0.5em;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
