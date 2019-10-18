@@ -1,7 +1,7 @@
 ---
 title: Mentoring
 subtitle: '"Whoever travels without a guide needs 200 years for a two-day journey." — Rumi'
-featured_image: /images/featured/contact.jpg
+featured_image: /images/featured/mentoring.jpg
 ---
 I am available for mentoring.
 You can book a 1-on-1 session on [CodeMentor](https://www.codementor.io/panda_whisperer)
