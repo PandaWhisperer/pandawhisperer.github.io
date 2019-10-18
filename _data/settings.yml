@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: PandaWhisperer.net
-  site_tagline: Trust me, I'm a Panda.
+  site_title: Christoph Wagner
+  site_tagline: Freelance Software Developer
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -78,9 +78,9 @@ font_settings:
   regular_weight: 400
   bold_weight: 800
   site_title:
-    small_size: 25
-    medium_size: 30
-    large_size: 35
+    small_size: 20
+    medium_size: 25
+    large_size: 28
     weight: 400
     letter_spacing: 0
   site_tagline:
