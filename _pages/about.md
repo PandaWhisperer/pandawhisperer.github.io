@@ -1,6 +1,6 @@
 ---
 title: About Me
-featured_image: /images/demo/demo-square.jpg
+featured_image: /images/featured/about.jpg
 ---
 
 Christoph discovered his passion for computers at a young age, when his dad bought his first PC in 1994. It was a Intel 386 processor with 4 Megabytes of RAM and a whopping 250 MB hard drive.
