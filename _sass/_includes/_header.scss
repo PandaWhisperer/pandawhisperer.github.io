@@ -92,6 +92,7 @@
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
+	margin: 0 auto 3em;
 
 	@include mq(tabletp) {
 		// float: left;
@@ -103,6 +104,7 @@
 	width: 100%;
 	height: auto;
   border-radius: 50% !important;
+	box-shadow: $overlay-background-color 2px 2px 10px;
 }
 
 .header__title {
