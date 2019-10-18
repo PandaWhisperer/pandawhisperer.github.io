@@ -8,7 +8,7 @@ tags:
   - html5
   - css3
   - mysql
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/tweet_my_jobs/featured.jpg'
 images:
   - /images/projects/tweet_my_jobs/main.png
 ---

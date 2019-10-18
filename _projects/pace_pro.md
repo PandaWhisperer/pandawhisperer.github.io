@@ -9,7 +9,7 @@ tags:
   - css3
   - bootstrap
   - postgres
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/pace_pro/featured.jpg'
 images:
   - /images/projects/pace_pro/contacts.png
   - /images/projects/pace_pro/opportunities.png

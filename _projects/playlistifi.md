@@ -9,7 +9,7 @@ tags:
   - css3
   - bootstrap
   - mongodb
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/playlistifi/featured.jpg'
 images:
   - '/images/projects/playlistifi/Playlistifi.me.jpg'
 ---

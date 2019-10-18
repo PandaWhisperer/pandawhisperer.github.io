@@ -9,7 +9,7 @@ tags:
   - css3
   - foundation
   - rest api
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/list_metrics/featured.jpg'
 images:
   - /images/projects/list_metrics/dashboard.png
   - /images/projects/list_metrics/dashboard_detail.png

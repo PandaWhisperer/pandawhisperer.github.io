@@ -11,7 +11,7 @@ tags:
   - mysql
   - memcache
   - capistrano
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/farespotter/featured.jpg'
 images:
   - /images/projects/farespotter/Farespotter.png
 ---

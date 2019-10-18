@@ -10,7 +10,7 @@ tags:
   - css3
   - node.js
   - webrtc
-featured_image: '/images/skyscraper.jpg'
+featured_image: '/images/projects/glideroom/featured.jpg'
 ---
 [Glideroom](http://glideroom.com) is a multi-user web conferencing solution that lets you quickly create private chat rooms with audio and video and gives you a secure URL that you can easily share via email, text, or instant message.
 
