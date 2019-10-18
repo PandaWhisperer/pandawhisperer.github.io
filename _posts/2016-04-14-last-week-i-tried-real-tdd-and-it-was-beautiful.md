@@ -13,7 +13,7 @@ After discussing this principle with one of my mentees at [theFirehoseProject][t
 2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
 3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
 
-I've been struggling with learning "real" TDD for a few years now. I chalk  up most of that struggle to bad habits, which have a tendency to expand themselves. Unless you make a real commitment to change, you somehow keep finding yourself in situations where everyone else has the same avoidance habits as you. 
+I've been struggling with learning "real" TDD for a few years now. I chalk  up most of that struggle to bad habits, which have a tendency to expand themselves. Unless you make a real commitment to change, you somehow keep finding yourself in situations where everyone else has the same avoidance habits as you.
 
 > TDD? Yes, we do that. But we write the tests *afterwards*. At least usually. Well, sometimes. When we have time.  — Someone, at every company, every day
 
@@ -27,39 +27,47 @@ So, with the 3 rules firmly in mind, I set out to finish this challenge. Without
 
 As Uncle Bob demanded, of course, I started with the tests. Well, I admit that I may have set up a very basic Express app skeleton first, but I definitely wrote the first test before writing any of the endpoints. Then, using [supertest][spt], I wrote a test for the first endpoint, `POST /collection`.  Reading right off the specification I got, I outlined the following test stubs:
 
-    app = require '../src/app'
-    request = require 'supertest'
-    
-    describe 'Collection API', ->
-    
-      describe 'POST /collection', ->
-      describe 'GET /collection', ->
-      describe 'GET /collection/summary', ->
-      describe 'POST /collection/clear', ->
+```coffeescript
+app = require '../src/app'
+request = require 'supertest'
+
+describe 'Collection API', ->
+
+  describe 'POST /collection', ->
+  describe 'GET /collection', ->
+  describe 'GET /collection/summary', ->
+  describe 'POST /collection/clear', ->
+```
 
 Of course, none of that will fail, so I added the following test case:
 
-      describe 'POST /collection', ->
-        it 'creates a new item', ->
-          request(app)
-            .post('/collection')
-            .send()
-            .expect(200)
-            .expect('Content-Type', 'application/json')
+```coffeescript
+  describe 'POST /collection', ->
+    it 'creates a new item', ->
+      request(app)
+        .post('/collection')
+        .send()
+        .expect(200)
+        .expect('Content-Type', 'application/json')
+```
 
 Keeping in mind rule number 2, I stopped here, even though you may have noticed I'm not even POSTing any data yet. This was already sufficient to fail, because after all, my server didn't even know about the `/collection` endpoint yet. In fact, I realized, just writing `expect(200)` would have been enough, checking the content type should have come later. In fact, I realized at this point, all I should have written was this (let's ignore for a moment the fact that the status code should be 201 — I was just working off of the requirements here):
 
-        it 'responds with status code 200', ->
-          request(app)
-            .post('/collection')
-            .expect(200)
+```coffeescript
+    it 'responds with status code 200', ->
+      request(app)
+        .post('/collection')
+        .expect(200)
+```
 
  And so I went on to rule number 3, and wrote exactly enough production code to make this test pass:
 
+```coffeescript
     app.post '/events', (request, response) ->
       response.json path: 'POST /events'
+```
 
-First round accomplished! That really wasn't so hard. 
+First round accomplished! That really wasn't so hard.
 
 I'll spare you the intimate details about the rest of the journey. I think these examples are enough to get the idea. After the realization that my first step was already too big, I tried really hard to pace myself on the next iterations, doing my best to literally only write enough of a test to make the production code fail. It's a strange feeling if you've been used to doing it differently. It somehow feels like your progress is much slower, because you're taking such small steps. However, a few hours later, it really started paying off: by this time, I would have normally gotten bored and take a long-ish break to read HackerNews or catch up on Facebook or some other nonsense, but instead, I was motivated to keep going, since my code was literally all working, and I could prove it, thanks to my growing number of tests.
 
@@ -67,7 +75,7 @@ By the end of the afternoon, I had the entire app working according to specs, an
 
 ## Now what?
 
-I took some time that evening to think about whether it was possible to test for this, but couldn't come up with a good answer. Obviously, retaining state between tests is a no-no (that was how the requirement was worded: "we need a database to persist data between runs). 
+I took some time that evening to think about whether it was possible to test for this, but couldn't come up with a good answer. Obviously, retaining state between tests is a no-no (that was how the requirement was worded: "we need a database to persist data between runs).
 
 I briefly considered writing a test that actually starts the server from the command line (in another thread), runs the first part of the suite, and then terminates the server without erasing data, only to start another instance, verify that the data is still there, and then delete it. But that seemed just a bit too involved. So at this point, I decided to cheat, and I simply added the database backend without having a failing test that I needed to make work. However, after that was done, I still had my suite of 33 tests that I could run against the server to make sure everything is still working.
 
