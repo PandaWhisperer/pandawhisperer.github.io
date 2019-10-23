@@ -152,6 +152,7 @@ p, ul, ol {
 	}
 
 	strong {
+		color: $text-dark-color;
 		font-weight: $bold-weight;
 	}
 
@@ -427,7 +428,7 @@ section {
 	}
 
 	@include mq(laptop) {
-		
+
 	}
 }
 
