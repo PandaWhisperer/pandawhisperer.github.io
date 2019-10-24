@@ -32,7 +32,7 @@ testimonials:
       Chris was my mentor while I was enrolled at the Firehose Project, an online code school for Ruby on Rails. He was always supportive, and still is even though I’m no longer enrolled in the program. Chris tailored things to my needs. I finished the curriculum early, and he would give me more challenges so that I could continue learning. He helped me better understand the nuances of Ruby and JavaScript, and would show me how I could improve my code even after I had a working solution by improving the readability or efficiency of my algorithms. Chris encouraged me to continue problem-solving, ask questions and not be afraid to make mistakes, arguably the most important qualities in a software engineer. He would make a great addition to any team because he not only has a wide range of experiences as a developer, but he's willing to share it to help others in their professional development.
 ---
 {% for testimonial in page.testimonials %}
-> &ldquo;{{ testimonial.quote | strip }}&rdquo;
+<blockquote class="speech-bubble"><p>{{ testimonial.quote | strip }}</p></blockquote>
 
 <div class="author">
   <img src="{{ testimonial.image }}" alt="{{ testimonial.author }}"/>
