@@ -40,5 +40,5 @@ testimonials:
 
 ### [{{ testimonial.author }}]({{ testimonial.link }})
 
-<p style="margin-top: 0;">{{ testimonial.title }}</p>
+<p style="margin-top: 0; margin-bottom: 30px;">{{ testimonial.title }}</p>
 {% endfor %}
