@@ -1,0 +1,44 @@
+.speech-bubble {
+	position: relative;
+	background: darken($background-alt-color, 3%);
+	border-radius: .4em;
+	padding: 2em;
+	z-index: -200;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 25%;
+		width: 0;
+		height: 0;
+		border: 1em solid transparent;
+		border-top-color: darken($background-alt-color, 3%);
+		border-bottom: 0;
+		border-left: 0;
+		margin-left: -0.5em;
+		margin-bottom: -1em;
+	}
+
+	p:first-child:before {
+		content: '\201C';
+		color: darken($background-alt-color, 10%);
+		font-size: 7.5em;
+		font-weight: 700;
+		position: absolute;
+		top: -.2em;
+		left: .01em;
+		z-index: -100;
+	}
+
+	p:last-child:after {
+		content: '\201D';
+		color: darken($background-alt-color, 10%);
+		font-size: 7.5em;
+		font-weight: 700;
+		position: absolute;
+		bottom: -.8em;
+		right: .01em;
+		z-index: -100;
+	}
+}
