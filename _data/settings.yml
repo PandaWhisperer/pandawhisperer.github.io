@@ -11,7 +11,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Articles'
+    - title: 'Thoughts'
       url: '/'
     - title: 'Projects'
       url: '/projects/'
@@ -63,6 +63,8 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/christophwagner'
+  # codementor_url: 'https://www.codementor.io/panda_whisperer'
+  # codewars_url: 'https://www.codewars.com/users/PandaWhisperer'
 
 color_settings:
   background_color: '#ffffff'
