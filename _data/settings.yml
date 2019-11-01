@@ -63,8 +63,12 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/christophwagner'
-  # codementor_url: 'https://www.codementor.io/panda_whisperer'
-  # codewars_url: 'https://www.codewars.com/users/PandaWhisperer'
+  codementor:
+    url: 'https://www.codementor.io/panda_whisperer'
+    icon: <img src="/images/icons/codementor.svg"/>
+  codewars:
+    url: 'https://www.codewars.com/users/PandaWhisperer'
+    icon: <img src="/images/icons/codewars.svg"/>
 
 color_settings:
   background_color: '#ffffff'

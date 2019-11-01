@@ -1,21 +1,24 @@
 <ul class="socials">
-	{% for url in site.data.settings.social_settings %}
-	{% if url[1] != '' %}
-	<li class="socials__item">
-		<a href="{{ url[1] }}" target="_blank" class="socials__item__link" title="{{ url[0] | remove: '_url' | replace: '-', ' ' | capitalize }}">
-			<i class="fab fa-{{ url[0] | replace: 'facebook', 'facebook-f' | remove: '_url' }}" aria-hidden="true"></i>
-		</a>
-	</li>
-	{% endif %}
+	{% for item in site.data.settings.social_settings %}
+		{% if item[1] != '' %}
+		  {% if item[0] contains '_url' %}
+				{% assign url   = item[1] %}
+				{% assign title = item[0] | remove: '_url' | replace: '-', ' ' | capitalize %}
+				{% assign icon  = item[0] | remove: '_url' | replace: 'facebook', 'facebook-f' | prepend: 'fab fa-' %}
+			{% else %}
+				{% assign url   = item[1].url %}
+				{% assign title = item[0] | replace: '-', ' ' | capitalize %}
+				{% assign icon  = item[1].icon %}
+			{% endif %}
+			<li class="socials__item">
+				<a href="{{ url }}" target="_blank" class="socials__item__link" title="{{ title }}">
+					{% if icon contains 'fa-' %}
+						<i class="{{ icon }}" aria-hidden="true"></i>
+					{% else %}
+						{{ icon }}
+					{% endif %}
+				</a>
+			</li>
+		{% endif %}
 	{% endfor %}
-	<li class="socials__item">
-		<a href="https://www.codementor.io/panda_whisperer" target="_blank" class="socials__item__link" title="CodeMentor">
-			<img src="/images/icons/codementor.svg"/>
-		</a>
-	</li>
-	<li class="socials__item">
-		<a href="https://www.codewars.com/users/PandaWhisperer" target="_blank" class="socials__item__link" title="CodeWars">
-			<img src="/images/icons/codewars.svg"/>
-		</a>
-	</li>
 </ul>
