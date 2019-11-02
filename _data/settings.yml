@@ -65,10 +65,10 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/christophwagner'
   codementor:
     url: 'https://www.codementor.io/panda_whisperer'
-    icon: <img src="/images/icons/codementor.svg"/>
+    icon: icons/codementor.svg
   codewars:
     url: 'https://www.codewars.com/users/PandaWhisperer'
-    icon: <img src="/images/icons/codewars.svg"/>
+    icon: icons/codewars.svg
 
 color_settings:
   background_color: '#ffffff'

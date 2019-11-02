@@ -15,7 +15,11 @@
 					{% if icon contains 'fa-' %}
 						<i class="{{ icon }}" aria-hidden="true"></i>
 					{% else %}
-						{{ icon }}
+						{% include {{ icon }} %}
+
+						{% comment %}
+						<img src="{{ icon }}" class="svg-inline--fa fa-w-16" aria-hidden="true"/>
+						{% endcomment %}
 					{% endif %}
 				</a>
 			</li>
