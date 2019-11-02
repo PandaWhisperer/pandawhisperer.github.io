@@ -1,6 +1,6 @@
 ---
 title: Mentoring
-subtitle: '&ldquo;Whoever travels without a guide, needs 200 years for a two-day journey.&rdquo; — Rumi'
+subtitle: '&ldquo;Whoever travels without a guide, needs two hundred years for a two-day journey.&rdquo; — Rumi'
 featured_image: /images/featured/mentoring.jpg
 ---
 I am available for mentoring.
