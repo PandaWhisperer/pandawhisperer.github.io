@@ -18,7 +18,7 @@ Well, sometimes it’s not about fixing something that’s not broken, but rathe
 
 Rather than having to read all the titles, it occurred to me, if I used descriptive emojis, all I would have to do is look at the pictures to quickly find the list I was looking for. And for some weird reason, looking at pictures seems to require less cognitive effort than reading a bunch of text.
 
-![image](images/posts/d94370110b221fab69a4fd8d0e22ab0188238cc016d76d5fb82c58c0afdd375d.jpg)
+![image](/images/posts/d94370110b221fab69a4fd8d0e22ab0188238cc016d76d5fb82c58c0afdd375d.jpg)
 
 After a few minutes of deliberation, I came up with the scheme on the left. The “To Do” list is my default list, which acts as an inbox — this is where I add new to-dos whenever I think of them. Siri uses that list as well, whenever I ask her to remind me of something. Every week, usually on Sundays, I go through that list and prioritize everything, moving the tasks for the upcoming week into the “This Week” list. Every morning, I pick out the tasks I want to accomplish that day and move them into the “Today” list.
 

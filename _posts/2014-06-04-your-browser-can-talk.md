@@ -11,7 +11,7 @@ title: "Your browser can talk!?!"
 ---
 So I was debugging some code in Chrome's Web Inspector, and while looking at the [window object](https://developer.mozilla.org/en-US/docs/Web/API/Window) I came across an entry called `speechSynthesis`: 
 
-![](images/posts/e7de9e950f1e6546591bb4facfa44ed9deb6a1bada06ec76ac5d9e06218583d8.png)
+![](/images/posts/e7de9e950f1e6546591bb4facfa44ed9deb6a1bada06ec76ac5d9e06218583d8.png)
 
 What's that? I thought, and promptly googled it. Well, [turns out](http://updates.html5rocks.com/2014/01/Web-apps-that-talk---Introduction-to-the-Speech-Synthesis-API) that a real [text-to-speech (TTS) ](http://en.wikipedia.org/wiki/Speech_synthesis) API has somehow made it into HTML5, and it's already support it new(ish) versions of Chrome and Safari. 
 

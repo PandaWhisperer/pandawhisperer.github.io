@@ -25,7 +25,7 @@ Turns out it’s a near perfect fit for this exercise, and not just because it p
 
 But enough of the theory, let’s see the result:
 
-![image](images/posts/e83b89be8db05cdb812a5e297dcab06a8a759332388acd534265579e8952e2aa.png)
+![image](/images/posts/e83b89be8db05cdb812a5e297dcab06a8a759332388acd534265579e8952e2aa.png)
 
 [JS Bin on jsbin.com](https://jsbin.com/hifaqum/edit?js,output)
 

@@ -24,7 +24,7 @@ Unfortunately, that happens to a LOT of people. It happened to me as well. Fortu
 Admit it. You kinda thought you could just learn a bit of Ruby or JavaScript, take that bootcamp, and then wing it until your awesome app hits the front page of [Product Hunt][ph] or [Tech Crunch][tc], and then you'd be rolling in dough like good ol' [Scrooge McDuck][sm]. 
 
 <figure style="float: right; width: 45%; margin-left: 1.875em; margin-bottom: 0;">
-![Scrooge McDuck](images/posts/7a23abb655d1c59b04f23b9d132f2d1c185acdd5118b1b0c8fa08ee8cf047697.jpg)
+![Scrooge McDuck](/images/posts/7a23abb655d1c59b04f23b9d132f2d1c185acdd5118b1b0c8fa08ee8cf047697.jpg)
 <figcaption style="margin-top: 1.875em;">He's judging you.</figcaption></figure>
 
 Well, I don't blame you, since that's what all those bootcamp advertisements basically promised you. But if you think about it, it becomes obvious pretty quick: it's a bit like walking into a NBA pro tournament after playing hoops all day with your buddies at summer camp, and expecting to beat Kobe Bryant at a penalty shootout. *It's just not very likely to happen.*

@@ -49,7 +49,7 @@ The colon denotes a *dynamic segment*, that is, it serves simultaneously as a wi
 
 Next, we'll create our routes. In Ember.js, a route is the first thing that gets invoked when a URL is loaded. It is responsible for loading the model and setting up the controller. Here's a good diagram showing how all the pieces fit together, courtesy of [Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/).
 
-![Ember.js MVC Diagram](images/posts/b416fae524cf2df796d519530a42bbb81641ff189d07f5daf0aa6e85663af56b.png)
+![Ember.js MVC Diagram](/images/posts/b416fae524cf2df796d519530a42bbb81641ff189d07f5daf0aa6e85663af56b.png)
 
 We'll create our two routes as shown below. The `SearchRoute` goes into `app/js/routes/search_route.js`:
 

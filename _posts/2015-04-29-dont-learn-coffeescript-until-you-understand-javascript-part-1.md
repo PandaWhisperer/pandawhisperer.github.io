@@ -25,7 +25,7 @@ Unfortunately, due to management somehow consistently firing or losing the most 
 
 When I first clicked the link that lead to the [CoffeeScript website][coffee], my tired eyes were lighting up. THIS I could do. THIS was going to be the solution. CoffeeScript would save my ass, by allowing me to write code in a way I already knew, without having to waste hours of my day figuring out which of JavaScript's many bugs I just just ran into.
 
-![CoffeeScript is the solution](images/posts/1c930ff6683b743963ec9637e28655110f80dc79c4c06621834ec8ed26fad952.jpg)
+![CoffeeScript is the solution](/images/posts/1c930ff6683b743963ec9637e28655110f80dc79c4c06621834ec8ed26fad952.jpg)
 
 I would just rewrite my 300 lines of spaghetti code in CoffeeScript, and because I no longer had to worry about all the nasty JavaScript bugs, it was going to work SO much better and be SO much more maintainable. 
 
@@ -35,7 +35,7 @@ After spending a few weeks trying to re-code the entire front-end code in Coffee
 
 It slowly dawned on me that CoffeeScript is, in the end, still "just JavaScript". It's just syntactic sugar, designed to work around the most egregious flaws in the language. All the fancy constructs, like classes and array comprehensions — at the end of the day, they just mapped to equivalent JavaScript code. And I realized that if I wanted my CoffeeScript code to cleanly interface with other JavaScript code, I'd actually have to understand how it all worked under the hood. I'd have take apart the engine and see what made it work. And that meant having to re-learn JavaScript, from scratch.
 
-![I don't know what I'm doing](images/posts/a2fdb6dcf365465d9b7b2466c4fcbb31bf90abcd17c061f80f54e4c28d9752cf.jpg)
+![I don't know what I'm doing](/images/posts/a2fdb6dcf365465d9b7b2466c4fcbb31bf90abcd17c061f80f54e4c28d9752cf.jpg)
 
 In the next part, I'm going to explain how I went about re-learning JavaScript, the resources I used, and the key insights I got. 
 

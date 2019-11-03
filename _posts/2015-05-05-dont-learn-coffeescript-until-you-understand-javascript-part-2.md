@@ -24,7 +24,7 @@ Well, I don't remember exactly what I typed into Google, but I do remember the m
 Now, the next step was finding a resource to help me re-learn JavaScript, from the ground up. My [Nebuchadnezzar][matrix], if you will. This came in the form of the excellent (and free!) [Eloquent JavaScript][ejs] by Marijn Haverbeke. This wonderful book teaches JavaScript as a first programming language, and it does so with impeccable style and attention to detail. Especially [chapter 6][ejsch6] was extremely helpful in overcoming my preconceived notions about how JavaScript's object orientation *should* work, and instead understand how it actually *does* work.
 
 <figure>
-![](images/posts/7a1bd9311027f111f4eb0f44664f4c0ba4c4c5d31d3fa4bf277eca7b515126e4.jpg)
+![](/images/posts/7a1bd9311027f111f4eb0f44664f4c0ba4c4c5d31d3fa4bf277eca7b515126e4.jpg)
 <figcaption>The Nebuchadnezzar</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Now, how does inheritance work without classes? Simple: it works just like in a 
 One way to imagine this is to literally visualize objects being people, and the prototype being their parent (since objects don't reproduce sexually, they'll only have one parent instead of two). An object inherits all of its parent's properties, but has the option to modify (i.e. override) them. 
 
 <figure>
-![](images/posts/dd53ed43f57e59a3713323cb86f2c9011642a0f6368d4172cc3337da10ffe0a6.jpg)
+![](/images/posts/dd53ed43f57e59a3713323cb86f2c9011642a0f6368d4172cc3337da10ffe0a6.jpg)
 <figcaption>JavaScript: a class-less system</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ For instance, an empty array `[]` has the following prototype chain:
 Any property or method that we might call on an array has to be defined somewhere in that chain. Let's say we call `[].toString()`. JavaScript will first look in the array object itself, but it will come up empty. Next, it will start traversing the prototype chain, going one level up to the ancestor, `Array.prototype`. As it happens, `Array.prototype` contains a `.toString()` method (which thus overrides the default `.toString()` implementation from `Object.prototype`). The runtime found a match, so it will execute that function.
 
 <figure>
-![](images/posts/f7717e3296e2fd793b241076a861ac4a221b678e575757c1c552b7226d2b9fca.jpg)
+![](/images/posts/f7717e3296e2fd793b241076a861ac4a221b678e575757c1c552b7226d2b9fca.jpg)
 <figcaption>Not that kind of prototype chain</figcaption>
 </figure>
 

@@ -16,15 +16,11 @@ I've recently decided to give GitHub's [Atom Text Editor](https://atom.io) anoth
 
 Most Vim commands worked perfectly, even advanced motion commands like `ciw` or `daW` are working like they're supposed to. However, one thing that bothered me was a weird popup that would appear every so often when navigating using the `l` key, as demonstrated on the [GitHub issue][iss] that was filed regarding this problem:
 
-![](images/posts/47dd0df22b66b59e8c7a5e2cada1eb876d9d8cb5fa7283effc7e247500a92b09.gif)
+![](/images/posts/47dd0df22b66b59e8c7a5e2cada1eb876d9d8cb5fa7283effc7e247500a92b09.gif)
 
 <!-- more -->
 
 Thanks to GitHub user [@rastasheep][rs], however, there appears to be a [solution][sol]:
-
-[iss]: https://github.com/atom/vim-mode/issues/175
-[rs]: https://github.com/rastasheep/
-[sol]: https://gist.github.com/rastasheep/bfc8266eeb58b899054c
 
 > Mac OS X Lion introduced a new, iOS-like context menu when you press and hold a key that enables you to choose a character from a menu of options. If you are on Lion try it by pressing and holding down `e` in any app that uses the default NSTextField for input.
 >
@@ -39,3 +35,7 @@ Thanks to GitHub user [@rastasheep][rs], however, there appears to be a [solutio
 > In either case you'll need to restart Atom for the change to take place.
 >
 > Happy coding!
+
+[iss]: https://github.com/atom/vim-mode/issues/175
+[rs]: https://github.com/rastasheep/
+[sol]: https://gist.github.com/rastasheep/bfc8266eeb58b899054c

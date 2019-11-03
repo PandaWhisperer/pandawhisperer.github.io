@@ -13,7 +13,7 @@ In my day job at [GoodData](http://www.gooddata.com), one of the projects I've b
 
 <!-- more -->
 
-![Screenshot](images/posts/07a19e4177fba2f373a548598bf45bba4d4585a6357d72c0143d337615225a45.png)
+![Screenshot](/images/posts/07a19e4177fba2f373a548598bf45bba4d4585a6357d72c0143d337615225a45.png)
 
 It shows all the [metrics](https://developer.gooddata.com/article/metrics-and-maql) in a selected project along with some metadata, and, most importantly, whether or not a metric is being used at all. This is important for our consultants because oftentimes, when working on a client project, they'll create a number of metrics for testing or validation purposes that never make it into the final project. Before we hand over a project to a client, we want to clean those up. And that's where it becomes very useful to know which of these metrics are unused and therefore safe to delete. 
 
@@ -29,7 +29,7 @@ In a way, this reminds me of the classic optical illusion that I'm sure you have
 
 Here's the picture I'm talking about: 
 
-![](images/posts/266fde3f9e5945d13376d0f200a45f73a0c4f39886dfc5e3f84560eb3d35890f.jpg)
+![](/images/posts/266fde3f9e5945d13376d0f200a45f73a0c4f39886dfc5e3f84560eb3d35890f.jpg)
 
 So, then, how do we solve this problem? I came up with a number of different solutions:
 
