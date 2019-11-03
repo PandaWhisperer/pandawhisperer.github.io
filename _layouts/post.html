@@ -21,8 +21,10 @@ layout: default
 
 	</div>
 
-	{% if page.comments %}
+	{% if site.data.settings.comment_settings.enabled %}
+	<div class="wrap comments">
 		{% include comments.html %}
+	</div>
 	{% endif %}
 
 </section>
